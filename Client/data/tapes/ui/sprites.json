@@ -1,0 +1,54 @@
+{
+ "EFT_Notification_Storylain_Background_1": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pixelsPerUnit": 100.0,
+  "rect": [
+   550.0,
+   50.0
+  ]
+ },
+ "Cassetes_Icon_Big_0": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pixelsPerUnit": 100.0,
+  "rect": [
+   30.0,
+   24.0
+  ]
+ },
+ "Achivement_Notification_form": {
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pixelsPerUnit": 100.0,
+  "rect": [
+   98.0,
+   50.0
+  ]
+ },
+ "border_generic": {
+  "border": [
+   2.0,
+   2.0,
+   2.0,
+   2.0
+  ],
+  "pixelsPerUnit": 100.0,
+  "rect": [
+   16.0,
+   16.0
+  ]
+ }
+}

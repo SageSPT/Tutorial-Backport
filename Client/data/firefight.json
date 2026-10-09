@@ -1,0 +1,305 @@
+{
+ "director": {
+  "maxConcurrentSequencesTotal": 12,
+  "updateIntervalSec": 0.10000000149011612,
+  "playOnEnable": true
+ },
+ "mixer": {
+  "parameter": "AmbientFirefightVolume",
+  "indoorDb": -45.0,
+  "outdoorDb": -16.0,
+  "isolatedDb": -80.0,
+  "blendSec": 0.5
+ },
+ "areas": [
+  {
+   "name": "FirefightArea_03",
+   "position": [
+    128.6999969482422,
+    26.299999237060547,
+    396.20001220703125
+   ],
+   "rotation": [
+    -0.012770994566380978,
+    0.992997407913208,
+    0.002722109667956829,
+    0.117412269115448
+   ],
+   "radius": 450.0,
+   "localDensity": 1.0,
+   "useSector": true,
+   "sectorApertureDeg": 130.0,
+   "forwardOffsetPercentRange": [
+    0.0,
+    0.800000011920929
+   ]
+  },
+  {
+   "name": "FirefightArea_01",
+   "position": [
+    -177.39999389648438,
+    33.5,
+    -354.1000061035156
+   ],
+   "rotation": [
+    0.012028099037706852,
+    0.28450196981430054,
+    -0.02100035920739174,
+    0.9583699703216553
+   ],
+   "radius": 450.0,
+   "localDensity": 1.0,
+   "useSector": true,
+   "sectorApertureDeg": 130.0,
+   "forwardOffsetPercentRange": [
+    0.0,
+    0.800000011920929
+   ]
+  },
+  {
+   "name": "FirefightArea_02",
+   "position": [
+    -125.0,
+    28.799999237060547,
+    348.8999938964844
+   ],
+   "rotation": [
+    -0.0,
+    -0.9968352317810059,
+    -0.0,
+    -0.07949613034725189
+   ],
+   "radius": 450.0,
+   "localDensity": 1.0,
+   "useSector": true,
+   "sectorApertureDeg": 130.0,
+   "forwardOffsetPercentRange": [
+    0.0,
+    0.800000011920929
+   ]
+  },
+  {
+   "name": "FirefightArea_04",
+   "position": [
+    452.3999938964844,
+    16.100000381469727,
+    -211.5
+   ],
+   "rotation": [
+    -0.0,
+    0.4215150475502014,
+    -0.0,
+    -0.9068214297294617
+   ],
+   "radius": 450.0,
+   "localDensity": 1.0,
+   "useSector": true,
+   "sectorApertureDeg": 130.0,
+   "forwardOffsetPercentRange": [
+    0.0,
+    0.800000011920929
+   ]
+  }
+ ],
+ "preset": {
+  "densityCurve": {
+   "keys": [
+    [
+     0.0,
+     0.699999988079071,
+     0.43382322788238525,
+     0.43382322788238525,
+     0.0,
+     0.3333333432674408,
+     0
+    ],
+    [
+     0.35410022735595703,
+     0.8536168932914734,
+     0.3302288055419922,
+     0.3302288055419922,
+     0.3333333432674408,
+     0.3333333432674408,
+     0
+    ],
+    [
+     1.0,
+     1.0,
+     0.10929607599973679,
+     0.10929607599973679,
+     0.12122885137796402,
+     0.0,
+     0
+    ]
+   ],
+   "preWrap": 2,
+   "postWrap": 2
+  },
+  "densityPeriodSec": 10.0,
+  "baseDensity": 0.5,
+  "grenadeEventsPerShooterPerMinuteAtMaxDensity": 0.15000000596046448,
+  "initialCooldownRangeSec": [
+   0.10000000149011612,
+   0.5
+  ],
+  "baseCooldownAtZeroDensitySec": 1.0,
+  "baseCooldownAtMaxDensitySec": 0.10000000149011612,
+  "cooldownJitterRangeSec": [
+   0.0,
+   0.20000000298023224
+  ],
+  "noProfileRetryCooldownSec": 0.5,
+  "backoffAtZeroDensitySec": 0.20000000298023224,
+  "backoffAtMaxDensitySec": 0.6000000238418579,
+  "enableCallAndResponse": true,
+  "responseProbability": 0.6499999761581421,
+  "responseDelayRange": [
+   1.0,
+   3.0
+  ],
+  "responseShotsRange": [
+   1,
+   5
+  ],
+  "responseCooldownRange": [
+   3.0,
+   7.0
+  ],
+  "weaponProfiles": [
+   {
+    "burstSizeRange": [
+     1.0,
+     7.0
+    ],
+    "volumeJitter": [
+     0.6000000238418579,
+     1.0
+    ],
+    "pitchJitter": [
+     0.9800000190734863,
+     1.0199999809265137
+    ],
+    "singleShotStartJitterSec": [
+     -0.029999999329447746,
+     0.05000000074505806
+    ],
+    "singleShotGapRangeSec": [
+     1.0,
+     10.0
+    ],
+    "burstSequenceGapRangeSec": [
+     1.0,
+     10.0
+    ],
+    "autoFireBias": 0.8999999761581421,
+    "audio": {
+     "singleShots": [
+      "deagle_9x33r_main",
+      "svd_main",
+      "mosin_main",
+      "sks_main",
+      "far_shoots"
+     ],
+     "loopTailSets": [
+      {
+       "rpm": 700.0,
+       "loop": "ak12_main_loop",
+       "tail": "ak12_tail"
+      },
+      {
+       "rpm": 650.0,
+       "loop": "ak74_main_loop",
+       "tail": "ak74_tail"
+      },
+      {
+       "rpm": 650.0,
+       "loop": "pkm_main_loop",
+       "tail": "pkm_tail"
+      },
+      {
+       "rpm": 700.0,
+       "loop": "sr3m_main_loop",
+       "tail": "sr3m_tail"
+      },
+      {
+       "rpm": 900.0,
+       "loop": "mcx_main_loop",
+       "tail": "mcx_tail"
+      }
+     ],
+     "grenadeBanks": [
+      "grenadeBank",
+      "mortarBank"
+     ]
+    }
+   },
+   {
+    "burstSizeRange": [
+     1.0,
+     7.0
+    ],
+    "volumeJitter": [
+     0.6000000238418579,
+     1.0
+    ],
+    "pitchJitter": [
+     0.9800000190734863,
+     1.0199999809265137
+    ],
+    "singleShotStartJitterSec": [
+     -0.029999999329447746,
+     0.05000000074505806
+    ],
+    "singleShotGapRangeSec": [
+     1.0,
+     10.0
+    ],
+    "burstSequenceGapRangeSec": [
+     1.0,
+     10.0
+    ],
+    "autoFireBias": 0.8999999761581421,
+    "audio": {
+     "singleShots": [
+      "deagle_9x33r_main",
+      "svd_main",
+      "mosin_main",
+      "sks_main",
+      "far_shoots"
+     ],
+     "loopTailSets": [
+      {
+       "rpm": 700.0,
+       "loop": "ak12_main_loop",
+       "tail": "ak12_tail"
+      },
+      {
+       "rpm": 650.0,
+       "loop": "ak74_main_loop",
+       "tail": "ak74_tail"
+      },
+      {
+       "rpm": 650.0,
+       "loop": "pkm_main_loop",
+       "tail": "pkm_tail"
+      },
+      {
+       "rpm": 700.0,
+       "loop": "sr3m_main_loop",
+       "tail": "sr3m_tail"
+      },
+      {
+       "rpm": 900.0,
+       "loop": "mcx_main_loop",
+       "tail": "mcx_tail"
+      }
+     ],
+     "grenadeBanks": [
+      "grenadeBank",
+      "mortarBank"
+     ]
+    }
+   }
+  ]
+ }
+}

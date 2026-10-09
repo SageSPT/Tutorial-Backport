@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>TutorialBackport</AssemblyName>
+    <RootNamespace>TutorialBackport.Server</RootNamespace>
+    <Version>1.0.0</Version>
+    <Company>Sage</Company>
+    <Product>Tutorial Backport</Product>
+
+    <DebugType>none</DebugType>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <GenerateDependencyFile>false</GenerateDependencyFile>
+
+    <ModDir>$(RuntimeDir)\user\mods\TutorialBackport\</ModDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <Reference Include="SPTarkov.Server.Core"><HintPath>$(RuntimeDir)\SPTarkov.Server.Core.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="SPTarkov.DI"><HintPath>$(RuntimeDir)\SPTarkov.DI.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="SPTarkov.Common"><HintPath>$(RuntimeDir)\SPTarkov.Common.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="SemanticVersioning"><HintPath>$(RuntimeDir)\SemanticVersioning.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>$(RuntimeDir)\0Harmony.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="db\**" />
+    <None Remove="bundles\**" />
+  </ItemGroup>
+
+  <Target Name="DeployToSPT" AfterTargets="Build"
+          Condition="'$(DeployToSPT)' == 'true' AND Exists('$(RuntimeDir)\user\mods')">
+    <ItemGroup>
+      <DbFiles Include="db\**\*.*" />
+      <BundleFiles Include="bundles\**\*.*" />
+    </ItemGroup>
+    <MakeDir Directories="$(ModDir)" />
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(ModDir)" />
+    <Copy SourceFiles="lore-bundles.json" DestinationFolder="$(ModDir)" SkipUnchangedFiles="true" />
+    <Copy SourceFiles="@(DbFiles)" DestinationFiles="@(DbFiles->'$(ModDir)db\%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />
+    <Copy SourceFiles="@(BundleFiles)" DestinationFiles="@(BundleFiles->'$(ModDir)bundles\%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />
+    <Message Importance="high" Text="TutorialBackport -> $(ModDir)" />
+  </Target>
+
+</Project>

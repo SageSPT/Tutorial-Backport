@@ -1,0 +1,18 @@
+{
+ "BrokenWeaponId": "58948c8e86f77409493f7266",
+ "TutorAutoStartQuestId": "6895bbb0e7dac53c7c08797b",
+ "TutorialWeather": {
+  "AtmospherePressure": 760,
+  "Cloudness": -0.3,
+  "LyingWater": 0,
+  "Rain": 0,
+  "RainRandomness": 0,
+  "ScaterringFogDensity": 0.008,
+  "Temperature": 20,
+  "TimeHour": 6,
+  "TimeMinute": 45,
+  "Turbulence": 0.2,
+  "Wind": 0.2,
+  "WindDirection": 3
+ }
+}

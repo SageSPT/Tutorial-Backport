@@ -1,0 +1,177 @@
+{
+ "recorder": "6526909b539ee574cb624991",
+ "playback": {
+  "baseVolume": 0.6800000071525574,
+  "rolloff": 20.0,
+  "sourceType": 3
+ },
+ "tapes": [
+  {
+   "tpl": "68889a2f94cca0a80b070af1",
+   "tapeId": "sound_info_recorder_tape_start_bear",
+   "audio": "tapes/sound_info_recorder_tape_start_bear.ogg",
+   "length": 27.5,
+   "transcript": "TapesText/sound_info_recorder_tape_startmission_forbears",
+   "subtitles": [
+    {
+     "id": "68b6dc8dffe35767f521778b",
+     "start": 3.0,
+     "end": 4.9
+    },
+    {
+     "id": "691343ce4ded41ee2bea97ff",
+     "start": 5.0,
+     "end": 7.4
+    },
+    {
+     "id": "69134497768350d6a4cedbc4",
+     "start": 7.5,
+     "end": 9.9
+    },
+    {
+     "id": "68b6dc8e96312975395afe50",
+     "start": 10.0,
+     "end": 17.9
+    },
+    {
+     "id": "691344f23ec20ddf0374e0be",
+     "start": 18.0,
+     "end": 21.9
+    },
+    {
+     "id": "6913452812748b69b284e206",
+     "start": 22.0,
+     "end": 26.0
+    }
+   ]
+  },
+  {
+   "tpl": "68889aab3fcaf13e48003ba7",
+   "tapeId": "sound_info_recorder_tape_start_usec",
+   "audio": "tapes/sound_info_recorder_tape_start_usec.ogg",
+   "length": 32.5,
+   "transcript": "TapesText/sound_info_recorder_tape_startmission_forusec",
+   "subtitles": [
+    {
+     "id": "69133e6503f523df53ea3baf",
+     "start": 4.5,
+     "end": 9.9
+    },
+    {
+     "id": "68b6dc376444a29985459601",
+     "start": 10.0,
+     "end": 12.9
+    },
+    {
+     "id": "68b6dc38871052ba31637157",
+     "start": 13.0,
+     "end": 18.9
+    },
+    {
+     "id": "68ea5149598a79eedb06884c",
+     "start": 19.0,
+     "end": 26.9
+    },
+    {
+     "id": "691340c1bb5c24fdd4327cc7",
+     "start": 27.0,
+     "end": 32.0
+    }
+   ]
+  },
+  {
+   "tpl": "68889aca77aeb067290816f1",
+   "tapeId": "sound_info_recorder_tape_usec_dialogue",
+   "audio": "tapes/sound_info_recorder_tape_usec_dialogue.ogg",
+   "length": 123.5,
+   "transcript": "TapesText/sound_info_recorder_tape_startmission_day35",
+   "subtitles": [
+    {
+     "id": "68b6dbf69a46a09a1c755f05",
+     "start": 3.0,
+     "end": 8.4
+    },
+    {
+     "id": "68b6dbfac7e0a00e1b02ec36",
+     "start": 8.5,
+     "end": 13.4
+    },
+    {
+     "id": "68b6dbfa3a0b2378a39c6f71",
+     "start": 13.5,
+     "end": 21.4
+    },
+    {
+     "id": "68b6dbfa028de235e5884fe8",
+     "start": 21.5,
+     "end": 28.4
+    },
+    {
+     "id": "68b6dbfae852a369ef69cff3",
+     "start": 28.5,
+     "end": 39.4
+    },
+    {
+     "id": "68b6dbfc0a786dba6c327834",
+     "start": 39.5,
+     "end": 46.4
+    },
+    {
+     "id": "68b6dbfcc931094cdde643ca",
+     "start": 46.5,
+     "end": 54.4
+    },
+    {
+     "id": "68ea55505b158349b62f392b",
+     "start": 54.5,
+     "end": 59.4
+    },
+    {
+     "id": "68ea55514f5e2232e04de6e5",
+     "start": 59.5,
+     "end": 64.4
+    },
+    {
+     "id": "68ea5552705a83548ab21c35",
+     "start": 64.5,
+     "end": 80.4
+    },
+    {
+     "id": "68ea5554bb3c96a1b0486d78",
+     "start": 80.5,
+     "end": 89.9
+    },
+    {
+     "id": "68ea55540998610ed57006a4",
+     "start": 90.0,
+     "end": 101.4
+    },
+    {
+     "id": "68ea55554c65adb6ac6ff1cd",
+     "start": 101.5,
+     "end": 106.9
+    },
+    {
+     "id": "68ea5556764900cda357fdac",
+     "start": 107.0,
+     "end": 112.4
+    },
+    {
+     "id": "68ea555862ec9eed52f766f8",
+     "start": 112.5,
+     "end": 116.9
+    },
+    {
+     "id": "69134af1579037fde7cd1e14",
+     "start": 117.0,
+     "end": 119.9
+    },
+    {
+     "id": "69134af2c402b58761f296a0",
+     "start": 120.0,
+     "end": 122.0
+    }
+   ]
+  }
+ ]
+}

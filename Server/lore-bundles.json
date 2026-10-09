@@ -1,0 +1,146 @@
+{
+ "manifest": [
+  {
+   "key": "assets/content/weapons/usable_items/item_recorder/client_assets.bundle",
+   "dependencyKeys": [
+    "assets/content/weapons/usable_items/item_recorder/textures/client_assets.bundle",
+    "cubemaps",
+    "shaders"
+   ]
+  },
+  {
+   "key": "assets/content/weapons/usable_items/item_recorder/item_recorder_container.bundle",
+   "dependencyKeys": [
+    "assets/commonassets/physics/physicsmaterials.bundle",
+    "assets/content/audio/banks/pm.bundle",
+    "assets/content/audio/blendoptions/assets.bundle",
+    "assets/content/audio/weapons/generic",
+    "assets/content/audio/weapons/pm.bundle",
+    "assets/content/weapons/additional_hands/client_assets.bundle",
+    "assets/content/weapons/animations/simple_animations.bundle",
+    "assets/content/weapons/animations/spirit_animations.bundle",
+    "assets/content/weapons/usable_items/item_recorder/client_assets.bundle",
+    "assets/content/weapons/usable_items/item_recorder/item_voevoda_recorder_container.bundle",
+    "assets/content/weapons/usable_items/item_recorder/textures/client_assets.bundle",
+    "assets/content/weapons/weapon_root_anim_fix.bundle",
+    "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+    "assets/systems/effects/heathaze/defaultheathaze.bundle",
+    "assets/systems/effects/muzzleflash/muzzleflash.bundle",
+    "assets/systems/effects/smoke.bundle",
+    "cubemaps",
+    "shaders"
+   ]
+  },
+  {
+   "key": "assets/content/weapons/usable_items/item_recorder/item_voevoda_recorder_container.bundle",
+   "dependencyKeys": [
+    "assets/commonassets/physics/physicsmaterials.bundle",
+    "assets/content/audio/banks/pm.bundle",
+    "assets/content/audio/blendoptions/assets.bundle",
+    "assets/content/audio/weapons/generic",
+    "assets/content/audio/weapons/pm.bundle",
+    "assets/content/weapons/additional_hands/client_assets.bundle",
+    "assets/content/weapons/animations/simple_animations.bundle",
+    "assets/content/weapons/animations/spirit_animations.bundle",
+    "assets/content/weapons/usable_items/item_recorder/client_assets.bundle",
+    "assets/content/weapons/usable_items/item_recorder/textures/client_assets.bundle",
+    "assets/content/weapons/weapon_root_anim_fix.bundle",
+    "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+    "assets/systems/effects/heathaze/defaultheathaze.bundle",
+    "assets/systems/effects/muzzleflash/muzzleflash.bundle",
+    "assets/systems/effects/smoke.bundle",
+    "cubemaps",
+    "shaders"
+   ]
+  },
+  {
+   "key": "assets/content/weapons/usable_items/item_recorder/textures/client_assets.bundle",
+   "dependencyKeys": []
+  },
+  {
+   "key": "assets/content/items/infosubject/item_info_recorder/item_info_recorder_tape_startmission_forbears.bundle",
+   "dependencyKeys": [
+    "assets/commonassets/physics/physicsmaterials.bundle",
+    "cubemaps",
+    "shaders"
+   ]
+  },
+  {
+   "key": "assets/content/items/infosubject/item_info_recorder/item_info_recorder_tape_startmission_forusec.bundle",
+   "dependencyKeys": [
+    "assets/commonassets/physics/physicsmaterials.bundle",
+    "cubemaps",
+    "shaders"
+   ]
+  },
+  {
+   "key": "assets/content/items/infosubject/item_info_recorder/item_info_recorder_tape_startmission_day35.bundle",
+   "dependencyKeys": [
+    "assets/commonassets/physics/physicsmaterials.bundle",
+    "cubemaps",
+    "shaders"
+   ]
+  },
+  {
+   "key": "assets/content/items/infosubject/item_info_note/item_info_note_usec_weapon_malfunctions.bundle",
+   "dependencyKeys": [
+    "assets/commonassets/physics/physicsmaterials.bundle",
+    "shaders"
+   ]
+  },
+  {
+   "key": "assets/content/items/infosubject/item_info_note/item_info_note_scheme_ground0_exits.bundle",
+   "dependencyKeys": [
+    "assets/commonassets/physics/physicsmaterials.bundle",
+    "cubemaps",
+    "shaders"
+   ]
+  },
+  {
+   "key": "assets/content/items/infosubject/item_info_note/item_info_note_newspaper_escalation.bundle",
+   "dependencyKeys": [
+    "assets/commonassets/physics/physicsmaterials.bundle",
+    "cubemaps",
+    "shaders"
+   ]
+  },
+  {
+   "key": "assets/content/items/infosubject/item_info_note/item_info_note_bluefire_witness.bundle",
+   "dependencyKeys": [
+    "assets/commonassets/physics/physicsmaterials.bundle",
+    "shaders"
+   ]
+  },
+  {
+   "key": "assets/content/items/mods/mounts/mount_m_lok_arisaka_inline_scout_mount.bundle",
+   "dependencyKeys": [
+    "assets/commonassets/physics/physicsmaterials.bundle",
+    "cubemaps",
+    "shaders"
+   ]
+  },
+  {
+   "key": "assets/content/items/mods/flashlights/flashlight_surefire_m600_ultra_scout.bundle",
+   "dependencyKeys": [
+    "assets/commonassets/physics/physicsmaterials.bundle",
+    "assets/content/hands/bear/bear_hands_watch_texture.bundles",
+    "assets/content/hands/bear/bear_watch.bundle",
+    "assets/standard assets/effects/lightcookies/textures/flashlightcookie.bundle",
+    "cubemaps",
+    "shaders"
+   ]
+  },
+  {
+   "key": "assets/content/items/mods/tactical/tactical_all_insight_anpeq15_blk.bundle",
+   "dependencyKeys": [
+    "assets/commonassets/physics/physicsmaterials.bundle",
+    "assets/content/textures/holemanager/glow_particle_bright.bundle",
+    "assets/standard assets/effects/lightcookies/textures/flashlightcookie.bundle",
+    "assets/systems/effects/collimator.bundle",
+    "assets/systems/effects/laserbeam/laser.bundle",
+    "cubemaps",
+    "shaders"
+   ]
+  }
+ ]
+}

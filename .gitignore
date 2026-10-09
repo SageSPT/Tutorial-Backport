@@ -1,0 +1,11 @@
+.vs/
+.vsconfig
+bin/
+obj/
+*.user
+Directory.Build.user.props
+Client/bundles/
+Server/bundles/
+Client/data/**/*.ogg
+Client/data/**/*.wav
+Client/data/**/*.png

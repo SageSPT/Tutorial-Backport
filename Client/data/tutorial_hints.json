@@ -1,0 +1,894 @@
+{
+ "triggers": [
+  {
+   "key": "tutorial_trigger_intro",
+   "showKey": 163805915,
+   "closeKey": -1567772932,
+   "keyDerivation": "GetStableHashCode(Key) / GetStableHashCode('/' + Key), inferred from scene trigger-id pairs",
+   "activations": 9999,
+   "onlyInTrigger": true,
+   "isImportant": false,
+   "ignoreQueue": false,
+   "lifetime": 0,
+   "lines": [
+    {
+     "text": "Tutorial/tutorial_trigger_intro-1",
+     "style": "Title",
+     "showKeys": false,
+     "keys": [],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_intro-2",
+     "style": "Text",
+     "showKeys": false,
+     "keys": [],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_intro-3",
+     "style": "Hotkey",
+     "showKeys": true,
+     "keys": [
+      "Interact"
+     ],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_intro-4",
+     "style": "Hotkey",
+     "showKeys": true,
+     "keys": [
+      "Recorder"
+     ],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_intro-5",
+     "style": "Hotkey",
+     "showKeys": true,
+     "keys": [
+      "Tactical"
+     ],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    }
+   ]
+  },
+  {
+   "key": "tutorial_trigger_loot_container",
+   "showKey": 1991332891,
+   "closeKey": -1986448102,
+   "keyDerivation": "GetStableHashCode(Key) / GetStableHashCode('/' + Key), inferred from scene trigger-id pairs",
+   "activations": 9999,
+   "onlyInTrigger": true,
+   "isImportant": false,
+   "ignoreQueue": false,
+   "lifetime": 7,
+   "lines": [
+    {
+     "text": "Tutorial/tutorial_trigger_loot_container-1",
+     "style": "Title",
+     "showKeys": false,
+     "keys": [],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_loot_container-2",
+     "style": "Text",
+     "showKeys": false,
+     "keys": [],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_loot_container-3",
+     "style": "Hotkey",
+     "showKeys": true,
+     "keys": [
+      "Interact"
+     ],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    }
+   ]
+  },
+  {
+   "key": "tutorial_trigger_volting",
+   "showKey": 1472605936,
+   "closeKey": -422322479,
+   "keyDerivation": "GetStableHashCode(Key) / GetStableHashCode('/' + Key), inferred from scene trigger-id pairs",
+   "activations": 9999,
+   "onlyInTrigger": true,
+   "isImportant": false,
+   "ignoreQueue": false,
+   "lifetime": 7,
+   "lines": [
+    {
+     "text": "Tutorial/tutorial_trigger_volting-1",
+     "style": "Title",
+     "showKeys": true,
+     "keys": [
+      "None"
+     ],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_volting-2",
+     "style": "Text",
+     "showKeys": false,
+     "keys": [],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_volting-3",
+     "style": "Hotkey",
+     "showKeys": true,
+     "keys": [
+      "Vaulting"
+     ],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_volting-4",
+     "style": "Hotkey",
+     "showKeys": true,
+     "keys": [
+      "Duck"
+     ],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_volting-5",
+     "style": "Hotkey",
+     "showKeys": true,
+     "keys": [
+      "Prone"
+     ],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    }
+   ]
+  },
+  {
+   "key": "tutorial_trigger_exit_zones",
+   "showKey": 357693655,
+   "closeKey": 1595421014,
+   "keyDerivation": "GetStableHashCode(Key) / GetStableHashCode('/' + Key), inferred from scene trigger-id pairs",
+   "activations": 1,
+   "onlyInTrigger": false,
+   "isImportant": false,
+   "ignoreQueue": false,
+   "lifetime": 15,
+   "lines": [
+    {
+     "text": "Tutorial/tutorial_trigger_exit_zones-1",
+     "style": "Title",
+     "showKeys": false,
+     "keys": [],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_exit_zones-2",
+     "style": "Text",
+     "showKeys": false,
+     "keys": [],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_exit_zones-3",
+     "style": "Hotkey",
+     "showKeys": true,
+     "keys": [
+      "WatchTimerAndExits"
+     ],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    }
+   ]
+  },
+  {
+   "key": "tutorial_trigger_mines",
+   "showKey": 167344879,
+   "closeKey": -1564233968,
+   "keyDerivation": "GetStableHashCode(Key) / GetStableHashCode('/' + Key), inferred from scene trigger-id pairs",
+   "activations": 1,
+   "onlyInTrigger": false,
+   "isImportant": false,
+   "ignoreQueue": false,
+   "lifetime": 15,
+   "lines": [
+    {
+     "text": "Tutorial/tutorial_trigger_mines-1",
+     "style": "Title",
+     "showKeys": false,
+     "keys": [],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_mines-2",
+     "style": "Text",
+     "showKeys": false,
+     "keys": [],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    }
+   ]
+  },
+  {
+   "key": "tutorial_trigger_equip",
+   "showKey": 160201887,
+   "closeKey": -1571376960,
+   "keyDerivation": "GetStableHashCode(Key) / GetStableHashCode('/' + Key), inferred from scene trigger-id pairs",
+   "activations": 9999,
+   "onlyInTrigger": true,
+   "isImportant": false,
+   "ignoreQueue": false,
+   "lifetime": 0,
+   "lines": [
+    {
+     "text": "Tutorial/tutorial_trigger_equip-1",
+     "style": "Title",
+     "showKeys": false,
+     "keys": [],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_equip-2",
+     "style": "Text",
+     "showKeys": false,
+     "keys": [],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_equip-3",
+     "style": "Hotkey",
+     "showKeys": true,
+     "keys": [
+      "Inventory"
+     ],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_equip-4",
+     "style": "Hotkey",
+     "showKeys": true,
+     "keys": [
+      "Interact"
+     ],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    }
+   ]
+  },
+  {
+   "key": "tutorial_trigger_location_zones",
+   "showKey": 1855091118,
+   "closeKey": -2122689875,
+   "keyDerivation": "GetStableHashCode(Key) / GetStableHashCode('/' + Key), inferred from scene trigger-id pairs",
+   "activations": 9999,
+   "onlyInTrigger": true,
+   "isImportant": false,
+   "ignoreQueue": false,
+   "lifetime": 0,
+   "lines": [
+    {
+     "text": "Tutorial/tutorial_trigger_location_zones-1",
+     "style": "Title",
+     "showKeys": false,
+     "keys": [],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_location_zones-2",
+     "style": "Text",
+     "showKeys": false,
+     "keys": [],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    }
+   ]
+  },
+  {
+   "key": "tutorial_trigger_prefight",
+   "showKey": -1011612546,
+   "closeKey": 375148733,
+   "keyDerivation": "GetStableHashCode(Key) / GetStableHashCode('/' + Key), inferred from scene trigger-id pairs",
+   "activations": 1,
+   "onlyInTrigger": true,
+   "isImportant": false,
+   "ignoreQueue": false,
+   "lifetime": 0,
+   "lines": [
+    {
+     "text": "Tutorial/tutorial_trigger_prefight-1",
+     "style": "Title",
+     "showKeys": false,
+     "keys": [],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_prefight-2",
+     "style": "Text",
+     "showKeys": false,
+     "keys": [],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_prefight-3",
+     "style": "Hotkey",
+     "showKeys": true,
+     "keys": [
+      "Tactical"
+     ],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_prefight-4",
+     "style": "Hotkey",
+     "showKeys": true,
+     "keys": [
+      "ShootingMode"
+     ],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_prefight-5",
+     "style": "Hotkey",
+     "showKeys": true,
+     "keys": [
+      "PrimaryWeaponFirst"
+     ],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    }
+   ]
+  }
+ ],
+ "named": {
+  "GrenadeHint": {
+   "key": "tutorial_trigger_grenade",
+   "showKey": 1124188669,
+   "closeKey": -770739746,
+   "keyDerivation": "GetStableHashCode(Key) / GetStableHashCode('/' + Key), inferred from scene trigger-id pairs",
+   "activations": 3,
+   "onlyInTrigger": false,
+   "isImportant": false,
+   "ignoreQueue": false,
+   "lifetime": 15,
+   "lines": [
+    {
+     "text": "Tutorial/tutorial_trigger_grenade-1",
+     "style": "Title",
+     "showKeys": false,
+     "keys": [],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_grenade-2",
+     "style": "Text",
+     "showKeys": false,
+     "keys": [],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_grenade-3",
+     "style": "Hotkey",
+     "showKeys": true,
+     "keys": [
+      "ThrowGrenade"
+     ],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    }
+   ]
+  },
+  "BleedHint": {
+   "key": "tutorial_trigger_bleed",
+   "showKey": 157266857,
+   "closeKey": -1574311990,
+   "keyDerivation": "GetStableHashCode(Key) / GetStableHashCode('/' + Key), inferred from scene trigger-id pairs",
+   "activations": 3,
+   "onlyInTrigger": false,
+   "isImportant": false,
+   "ignoreQueue": false,
+   "lifetime": 10,
+   "lines": [
+    {
+     "text": "Tutorial/tutorial_trigger_bleed-1",
+     "style": "Title",
+     "showKeys": false,
+     "keys": [],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_bleed-2",
+     "style": "Text",
+     "showKeys": false,
+     "keys": [],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_bleed-3",
+     "style": "Hotkey",
+     "showKeys": true,
+     "keys": [
+      "Inventory"
+     ],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    }
+   ]
+  },
+  "FractureHint": {
+   "key": "tutorial_trigger_fracture",
+   "showKey": -1376792429,
+   "closeKey": 9968850,
+   "keyDerivation": "GetStableHashCode(Key) / GetStableHashCode('/' + Key), inferred from scene trigger-id pairs",
+   "activations": 3,
+   "onlyInTrigger": false,
+   "isImportant": false,
+   "ignoreQueue": false,
+   "lifetime": 10,
+   "lines": [
+    {
+     "text": "Tutorial/tutorial_trigger_fracture-1",
+     "style": "Title",
+     "showKeys": false,
+     "keys": [],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_fracture-2",
+     "style": "Text",
+     "showKeys": false,
+     "keys": [],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_fracture-3",
+     "style": "Hotkey",
+     "showKeys": true,
+     "keys": [
+      "Inventory"
+     ],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    }
+   ]
+  },
+  "MalfHint": {
+   "key": "tutorial_trigger_malf",
+   "showKey": 1945053119,
+   "closeKey": -1158845570,
+   "keyDerivation": "GetStableHashCode(Key) / GetStableHashCode('/' + Key), inferred from scene trigger-id pairs",
+   "activations": 999,
+   "onlyInTrigger": false,
+   "isImportant": true,
+   "ignoreQueue": false,
+   "lifetime": 9999,
+   "lines": [
+    {
+     "text": "Tutorial/tutorial_trigger_malf-1",
+     "style": "Title",
+     "showKeys": false,
+     "keys": [],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_malf-2",
+     "style": "Text",
+     "showKeys": false,
+     "keys": [],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_malf-3",
+     "style": "Hotkey",
+     "showKeys": true,
+     "keys": [
+      "ExamineWeapon"
+     ],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_malf-5",
+     "style": "Hotkey",
+     "showKeys": true,
+     "keys": [
+      "CheckChamber"
+     ],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_malf-4",
+     "style": "Hotkey",
+     "showKeys": true,
+     "keys": [
+      "CheckAmmo"
+     ],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    }
+   ]
+  },
+  "HydrationHint": {
+   "key": "tutorial_trigger_hydration",
+   "showKey": -956667419,
+   "closeKey": -916740730,
+   "keyDerivation": "GetStableHashCode(Key) / GetStableHashCode('/' + Key), inferred from scene trigger-id pairs",
+   "activations": 9999,
+   "onlyInTrigger": true,
+   "isImportant": false,
+   "ignoreQueue": false,
+   "lifetime": 0,
+   "lines": [
+    {
+     "text": "Tutorial/tutorial_trigger_hydration-1",
+     "style": "Title",
+     "showKeys": false,
+     "keys": [],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_hydration-2",
+     "style": "Text",
+     "showKeys": false,
+     "keys": [],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_hydration-3",
+     "style": "Hotkey",
+     "showKeys": true,
+     "keys": [
+      "Inventory"
+     ],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_hydration-4",
+     "style": "Hotkey",
+     "showKeys": true,
+     "keys": [
+      "Shoot"
+     ],
+     "keysLocalizationKey": "double_click",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    }
+   ]
+  },
+  "TimerHint": {
+   "key": "tutorial_trigger_time",
+   "showKey": 1945269374,
+   "closeKey": -1158629315,
+   "keyDerivation": "GetStableHashCode(Key) / GetStableHashCode('/' + Key), inferred from scene trigger-id pairs",
+   "activations": 3,
+   "onlyInTrigger": false,
+   "isImportant": false,
+   "ignoreQueue": false,
+   "lifetime": 10,
+   "lines": [
+    {
+     "text": "Tutorial/tutorial_trigger_time-1",
+     "style": "Title",
+     "showKeys": false,
+     "keys": [],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_time-2",
+     "style": "Text",
+     "showKeys": false,
+     "keys": [],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    }
+   ]
+  },
+  "FinalHint": {
+   "key": "tutorial_trigger_final",
+   "showKey": 160880101,
+   "closeKey": -1570698746,
+   "keyDerivation": "GetStableHashCode(Key) / GetStableHashCode('/' + Key), inferred from scene trigger-id pairs",
+   "activations": 9999,
+   "onlyInTrigger": true,
+   "isImportant": false,
+   "ignoreQueue": false,
+   "lifetime": 100,
+   "lines": [
+    {
+     "text": "Tutorial/tutorial_trigger_final-1",
+     "style": "Title",
+     "showKeys": false,
+     "keys": [],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_final-2",
+     "style": "Text",
+     "showKeys": false,
+     "keys": [],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    }
+   ]
+  },
+  "ExaminationHint": {
+   "key": "tutorial_trigger_examination",
+   "showKey": 392370464,
+   "closeKey": 107212929,
+   "keyDerivation": "GetStableHashCode(Key) / GetStableHashCode('/' + Key), inferred from scene trigger-id pairs",
+   "activations": 1,
+   "onlyInTrigger": false,
+   "isImportant": false,
+   "ignoreQueue": false,
+   "lifetime": 10,
+   "lines": [
+    {
+     "text": "Tutorial/tutorial_trigger_examination-1",
+     "style": "Title",
+     "showKeys": false,
+     "keys": [],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    },
+    {
+     "text": "Tutorial/tutorial_trigger_examination-2",
+     "style": "Text",
+     "showKeys": false,
+     "keys": [],
+     "keysLocalizationKey": "",
+     "axis": {
+      "pair": "MoveX",
+      "positive": false,
+      "negative": false
+     }
+    }
+   ]
+  }
+ }
+}
