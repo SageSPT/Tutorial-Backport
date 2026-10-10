@@ -1,5 +1,6 @@
 using SPTarkov.Common.Models.Logging;
 using HarmonyLib;
+using SPTarkov.Server.Core.Controllers;
 using SPTarkov.Server.Core.Generators.Loot;
 using SPTarkov.Server.Core.Helpers.Items;
 using SPTarkov.Server.Core.Models.Eft.Common;
@@ -36,6 +37,37 @@ public static class TutorialPatches
         Patch(harmony, AccessTools.Method(typeof(LocationLifecycleService), nameof(LocationLifecycleService.GenerateLocationAndLoot)),
             prefix: nameof(BeforeGenerateLocationAndLoot), postfix: nameof(AfterGenerateLocationAndLoot), finalizer: nameof(GenerateLocationAndLootFinalizer));
         Patch(harmony, AccessTools.Method(typeof(LocationLootGenerator), "CreateDynamicLootItem"), postfix: nameof(AfterCreateDynamicLootItem));
+        Patch(harmony, AccessTools.Method(typeof(LocationController), nameof(LocationController.GenerateAll)), postfix: nameof(AfterGenerateAll));
+        try
+        {
+            LotsOfLootCompat.Apply(harmony);
+        }
+        catch (Exception error)
+        {
+            _logger.Error($"[TutorialBackport] Lots of Loot compatibility patch failed: {error.Message}");
+        }
+    }
+
+    private static void AfterGenerateAll(MongoId sessionId, LocationsGenerateAllResponse __result)
+    {
+        try
+        {
+            if (__result?.Locations == null || _progress.IsPending(_services.Profile(sessionId)))
+            {
+                return;
+            }
+
+            foreach (var key in __result.Locations
+                         .Where(pair => pair.Key.ToString() == TutorialIds.LocationId)
+                         .Select(pair => pair.Key).ToList())
+            {
+                __result.Locations.Remove(key);
+            }
+        }
+        catch (Exception error)
+        {
+            _logger.Error($"[TutorialBackport] hiding the tutorial map failed: {error.Message}");
+        }
     }
 
     private static void BeforeGenerateLocationAndLoot(string name)
