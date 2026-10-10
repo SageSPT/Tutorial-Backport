@@ -7,7 +7,7 @@
     <Nullable>enable</Nullable>
     <AssemblyName>TutorialBackport</AssemblyName>
     <RootNamespace>TutorialBackport.Server</RootNamespace>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Company>Sage</Company>
     <Product>Tutorial Backport</Product>
 

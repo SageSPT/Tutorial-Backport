@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace TutorialBackport.Client;
 
-[BepInPlugin(Guid, "Tutorial Backport", "1.0.0")]
+[BepInPlugin(Guid, "Tutorial Backport", "1.0.1")]
 [BepInDependency("com.SPT.core", BepInDependency.DependencyFlags.SoftDependency)]
 [BepInIncompatibility("com.fika.core")]
 public class Plugin : BaseUnityPlugin
